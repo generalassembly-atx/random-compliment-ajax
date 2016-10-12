@@ -38,7 +38,10 @@ router.get('/random-compliment', function (req, res) {
 
 
   // 2. replace compliments[0] with a random compliment from the compliments array
-  var randomCompliment = compliments[4];
+  var randomNumber = Math.random()*compliments.length;
+    randomNumber = Math.floor(randomNumber);
+  
+  var randomCompliment = compliments[randomNumber];
 
   // Return randomCompliment as json to the front end
   res.json(randomCompliment)
