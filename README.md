@@ -2,10 +2,10 @@
 
 ## Mission…
 
-Create your own version of [Emergency Compliment](http://emergencycompliment.com/), using Express. When a user visits the site, they should be greeted with a WDI-themed compliment to cheer them up.
+Create your own version of [Emergency Compliment](http://emergencycompliment.com/), using Express and $.ajax. When a user visits the site, they should be greeted with a WDI-themed compliment to cheer them up.
 
 
-## Level 1: generic compliment
+## User stories
 
 1. When you visit the root (`"/"`) of your app, it should display a randomly chosen compliment from the `"/random-compliment"` route.
 2. When you click "Give me another compliment!" it should replace the compliment with another one from `"/random-compliment"`
