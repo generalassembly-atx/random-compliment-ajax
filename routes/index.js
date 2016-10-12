@@ -25,6 +25,24 @@ router.get('/random-compliment', function (req, res) {
     },
     {
       text: 'What a nice shirt you are wearing today'
+    },
+    {
+      text: "Your instructors love you"
+    },
+    {
+      text: "High five = ^5"
+    },
+    {
+      text: "Amanda thinks you're wicked smart!"
+    },
+    {
+      text: "Britney Jo is sooo proud of you! :)"
+    },
+    {
+      text: "Sean would totally hire you."
+    },
+    {
+      text: "It's almost beer o'clock!"
     }
   ]
 
