@@ -54,5 +54,9 @@ app.use(function(err, req, res, next) {
   });
 });
 
+app.put(function(req, res) {
+  res.json('url')
+})
+
 
 module.exports = app;
