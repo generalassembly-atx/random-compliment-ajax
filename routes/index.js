@@ -1,7 +1,6 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
@@ -14,8 +13,8 @@ router.get('/random-compliment', function (req, res) {
     }
   ]
 
-  // 2. Pull a random compliment from the compliments array and set it to randomCompliment
-  var randomCompliment = null;
+  // 2. replace compliments[0] with a random compliment from the compliments array
+  var randomCompliment = compliments[0];
 
   // Return randomCompliment as json to the front end
   res.json(randomCompliment)
