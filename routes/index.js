@@ -2,14 +2,14 @@ var express = require('express');
 var router = express.Router();
 
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('index');
 });
 
 router.get('/random-compliment', function (req, res) {
-  // 1. Add 3 additional compliment objects to this array
+  // 1. Add several compliment objects to this array
   var compliments = [
     {
-      text: 'You are swell!'
+      text: 'This compliment is in routes/index.js'
     }
   ]
 
