@@ -5,6 +5,11 @@ router.get('/', function(req, res, next) {
   res.render('index');
 });
 
+function randomColor() {
+	var colors = ["#fd6c3b", "#4edacf","#65a576","#f2d83d"];
+	return colors[Math.floor(Math.random()*colors.length)];
+}
+
 router.get('/random-compliment', function (req, res) {
   // 1. Add several compliment objects to this array
   var compliments = [
@@ -33,7 +38,7 @@ router.get('/random-compliment', function (req, res) {
 
 
   // 2. replace compliments[0] with a random compliment from the compliments array
-  var randomCompliment = compliments[0];
+  var randomCompliment = compliments[4];
 
   // Return randomCompliment as json to the front end
   res.json(randomCompliment)
