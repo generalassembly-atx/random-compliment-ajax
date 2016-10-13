@@ -9,7 +9,7 @@ router.get('/random-compliment', function (req, res) {
   // 1. Add several compliment objects to this array
   var compliments = [
     {
-      text: 'This compliment is in routes/index.js'
+      text: "I've never SEEN so many good things about a person. Ever. In a world."
     },
     {
       text: 'Your fingers are so dextrous.'
