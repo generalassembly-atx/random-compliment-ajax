@@ -1,4 +1,9 @@
 // Front end js goes here
 $(document).ready(function () {
-  // Your ajax code goes here
+  $('button').on('click', generateCompliment)
 })
+
+function generateCompliment(e) {
+  e.preventDefault();
+  console.log('generated compliment');
+}
