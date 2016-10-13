@@ -1,4 +1,6 @@
 // Front end js goes here
 $(document).ready(function () {
-  // Your ajax code goes here
+  $('#generateRandomCompliment').on('click', function(e){
+    <a href="/random-compliment">/random-compliment</a>
+  })
 })

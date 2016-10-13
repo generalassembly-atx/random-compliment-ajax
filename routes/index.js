@@ -9,12 +9,23 @@ router.get('/random-compliment', function (req, res) {
   // 1. Add several compliment objects to this array
   var compliments = [
     {
-      text: 'This compliment is in routes/index.js'
+      text: 'Your dead grandma would be proud of you.'
+    },
+    {
+      text: 'You are doing a fantastic job, maybe'
+    },
+    {
+      text: "One day you'll be Kanye"
+    },
+    {
+      text: 'That hat looks not terrible on you.'
+    },
+    {
+      text: 'You are the least worst Backstreet Boy'
     }
   ]
 
-  // 2. replace compliments[0] with a random compliment from the compliments array
-  var randomCompliment = compliments[0];
+  var randomCompliment = compliments[Math.floor(Math.random()*compliments.length)];
 
   // Return randomCompliment as json to the front end
   res.json(randomCompliment)
