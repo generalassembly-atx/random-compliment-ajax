@@ -9,7 +9,7 @@ router.get('/random-compliment', function (req, res) {
   // 1. Add several compliment objects to this array
   var compliments = [
     {
-      text: "I've never SEEN so many good things about a person. Ever. In a world."
+      text: "I've never SEEN so many good things about a person. Today."
     },
     {
       text: 'Your fingers are so dextrous.'
@@ -37,6 +37,30 @@ router.get('/random-compliment', function (req, res) {
     },
     {
       text: "Is there anything you CAN'T do!?"
+    },
+    {
+      text: "You're pretty."
+    },
+    {
+      text: "You did that thing really well."
+    },
+    {
+      text: "You're so brave."
+    },
+    {
+      text: "You're awesome at that thing we were talking about earlier."
+    },
+    {
+      text: "Your elevator etiquette is on point."
+    },
+    {
+      text: "You could have won my 5th grade spelling bee."
+    },
+    {
+      text: "Cool name."
+    },
+    {
+      text: "Nice nose."
     }
   ]
 
