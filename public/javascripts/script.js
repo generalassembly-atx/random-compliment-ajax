@@ -2,7 +2,8 @@
 $(document).ready(function () {
   // Your ajax code goes here
   loadCompliment();
-  
+  $("#generateRandomCompliment").on('click', loadCompliment);
+
 })
 
 function loadCompliment() {
