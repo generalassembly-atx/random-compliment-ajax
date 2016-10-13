@@ -28,6 +28,15 @@ router.get('/random-compliment', function (req, res) {
     },
     {
       text: "You're so hot at web developing."
+    },
+    {
+      text: "Your grammar is on fleek."
+    },
+    {
+      text: "I've heard of you."
+    },
+    {
+      text: "Is there anything you CAN'T do!?"
     }
   ]
 
